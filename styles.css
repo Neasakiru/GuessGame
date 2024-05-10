@@ -1,0 +1,72 @@
+:root{
+    font-size: 20px;
+    color: #fff;
+}
+body{
+    background-color: black;
+    display: flex;
+    margin: 0;
+}
+.game{
+    background-color: rgb(48, 48, 48);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.guesser{
+    background-color: rgb(53, 53, 53);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#checkNumber{
+    background-color:rgb(43, 43, 43);
+    padding: 15px;
+    border-radius: 8px;
+}
+#checkNumber:hover{
+    cursor: pointer;
+    background-color: #212121;
+}
+.hiddenNumber{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#hiddenNumber{
+    font-size: 2rem;
+}
+#numberToGuess{
+   font-size: 1rem;
+}
+input{
+    width: 100px;
+    height:50px;
+    text-align: center;
+}
+#reset{
+    position: absolute;
+    z-index: 1000;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(168, 168, 168) ;
+    padding: 15px;
+    border-radius: 8px;
+    color: black;
+    
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: rgb(95, 95, 95);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Sekcja do zgadywania -->
+    <div class="guesser">
+        <span>Podaj liczbę do sprawdzenia:</span>
+        <input id="numberToGuess" type="number">
+        <div id ="checkNumber">Sprawdź</div>
+    </div>
+    <!-- Sekcja z ukrytą liczbą -->
+    <div class="game">
+        <div class="hiddenNumber">
+        <span>Ukryta liczba</span>
+        <span id="hiddenNumber"></span>
+        <span id="hint"></span>
+        </div>
+        <div>
+        <span>Score: </span>
+        <span id="score"></span>
+        </div>
+        <div>
+        <span>Highscore: </span>
+        <span id="highscore"></span>
+        </div>
+    </div>
+    <!-- Przycisk reset -->
+    <div id ="reset">Reset</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
